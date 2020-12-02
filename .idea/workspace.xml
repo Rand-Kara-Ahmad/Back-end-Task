@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4d2881d-48df-42b4-91ff-5cea335c99d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation-inline.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +14,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Rand Ahmad &lt;randahmad1998@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -169,6 +164,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\FreeLance\Smart Angel\First Task\backend-task\resources\lang" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\FreeLance\Smart Angel\First Task\backend-task\app\Models" />
     </key>
@@ -191,18 +189,35 @@
       <workItem from="1606816793764" duration="811000" />
       <workItem from="1606818522126" duration="62000" />
       <workItem from="1606819092545" duration="2322000" />
-      <workItem from="1606906374300" duration="2814000" />
+      <workItem from="1606906374300" duration="3872000" />
     </task>
+    <task id="LOCAL-00001" summary="install passport and create base controller">
+      <created>1606910822706</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606910822706</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="install passport and create base controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="install passport and create base controller" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1606816681556">
+    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1606910819979">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1606816681556" />
+    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1606910819979" />
+    <state x="129" y="55" key="DiffContextDialog" timestamp="1606909998532">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="129" y="55" key="DiffContextDialog/0.0.1366.736@0.0.1366.736" timestamp="1606909998532" />
     <state x="184" y="12" key="SettingsEditor" timestamp="1606819271887">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
