@@ -11,10 +11,10 @@ class Tweet extends Model
 
     protected $fillable = [
         'title',
-        'text',
+        'content_tweet',
         'user_id',
     ];
-
+    protected $hidden = ['created_at', 'updated_at'];
     public function user()
     {
         return $this->belongsTo(User::class, 'user_id', 'id');

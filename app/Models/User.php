@@ -21,6 +21,8 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'c_password',
+        'image',
     ];
 
     /**
@@ -44,12 +46,12 @@ class User extends Authenticatable
 
     public function tweets()
     {
-        $this->hasMany(Tweet::class, 'user_id', 'id');
+        return $this->hasMany(Tweet::class, 'user_id', 'id');
     }
 
     public function follower()
     {
-        $this->hasMany(Follower::class, 'follower_id', 'id');
+        return $this->hasMany(Follower::class, 'follower_id', 'id');
     }
 
 }

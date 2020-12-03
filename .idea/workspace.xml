@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4d2881d-48df-42b4-91ff-5cea335c99d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BaseController.php" afterDir="false" />
+    <list default="true" id="e4d2881d-48df-42b4-91ff-5cea335c99d9" name="Default Changelist" comment="login &amp; register &amp; tweet">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Tweet/TweetController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/custom_messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/custom_messages.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Tweet.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Tweet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_12_01_103124_create_tweets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_12_01_103124_create_tweets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +27,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Rand Qara Ahmad &lt;randahmad1998@gmail.com&gt;" />
         <option value="Rand Ahmad &lt;randahmad1998@gmail.com&gt;" />
       </list>
     </option>
@@ -189,7 +201,10 @@
       <workItem from="1606816793764" duration="811000" />
       <workItem from="1606818522126" duration="62000" />
       <workItem from="1606819092545" duration="2322000" />
-      <workItem from="1606906374300" duration="3872000" />
+      <workItem from="1606906374300" duration="11306000" />
+      <workItem from="1606986469678" duration="400000" />
+      <workItem from="1606986876906" duration="41000" />
+      <workItem from="1606986934173" duration="4593000" />
     </task>
     <task id="LOCAL-00001" summary="install passport and create base controller">
       <created>1606910822706</created>
@@ -198,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606910822706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="install passport and create base controller">
+      <created>1606910838158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606910838158</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,14 +228,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="install passport and create base controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="install passport and create base controller" />
+    <MESSAGE value="login &amp; register &amp; tweet" />
+    <option name="LAST_COMMIT_MESSAGE" value="login &amp; register &amp; tweet" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1606910819979">
+    <state x="196" y="0" key="CommitChangelistDialog2" timestamp="1606910836969">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1606910819979" />
+    <state x="196" y="0" key="CommitChangelistDialog2/0.0.1366.736@0.0.1366.736" timestamp="1606910836969" />
     <state x="129" y="55" key="DiffContextDialog" timestamp="1606909998532">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
@@ -222,6 +245,10 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="184" y="12" key="SettingsEditor/0.0.1366.736@0.0.1366.736" timestamp="1606819271887" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1606910911664">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.736@0.0.1366.736" timestamp="1606910911664" />
     <state x="339" y="164" key="run.anything.popup" timestamp="1606819638882">
       <screen x="0" y="0" width="1366" height="736" />
     </state>

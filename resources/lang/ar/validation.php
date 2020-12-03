@@ -169,6 +169,7 @@ return [
         'minute' => 'دقيقة',
         'second' => 'ثانية',
         'title' => 'العنوان',
+        'content_tweet' => 'محتوى التغريدة',
         'content' => 'المُحتوى',
         'description' => 'الوصف',
         'excerpt' => 'المُلخص',
