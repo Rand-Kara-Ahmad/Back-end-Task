@@ -33,4 +33,10 @@ Route::group(['middleware' => 'auth:api'], function () {
         Route::post('/store', [\App\Http\Controllers\Tweet\TweetController::class, 'store']);
         Route::get('/all', [\App\Http\Controllers\Tweet\TweetController::class, 'getUserTweets']);
     });
+
+    Route::group(['prefix' => 'profile'], function () {
+        Route::post('/follow', [\App\Http\Controllers\Follow\FollowController::class, 'follow']);
+        Route::post('/unfollow', [\App\Http\Controllers\Follow\FollowController::class, 'unFollow']);
+        Route::get('/followers', [\App\Http\Controllers\Follow\FollowController::class, 'getFollowers']);
+    });
 });
